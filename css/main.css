@@ -1,11 +1,9 @@
 /*
 =====================================
-
 CSS Reset
 	http://meyerweb.com/eric/tools/css/reset/
 	v2.0 | 20110126
 	License: none (public domain)
-
 =====================================
 */
 
@@ -54,15 +52,13 @@ table {
 }
 /*
 =====================================
-
 General Styling
-
 =====================================
 */
 p, ul{
 	font-family: Consolas;
 	color: rgb(36,204,68);
-	font-size: 15px;
+	font-size: 13.9pt;
 	align-content:justify;
 }
 ul{
@@ -73,11 +69,45 @@ body{
 	background-color: rgb(32,32,32);
 }
 
+.panel{
+	font-family: Consolas;
+	background-color: black;
+	color: rgb(36,204,68);
+	padding:20px 0;
+	width: 80%;
+	margin:auto;
+	text-align:justify;
+	padding: 1% 5%;
+	font-size: 20pt;
+}
+table{
+	font-size: 15pt;
+	margin:auto;
+	border:solid 2px green;
+}
+thead th{
+	text-align: center;
+	font-weight:bold;
+	border:solid 2px green;
+	font-size: 20pt;
+}
+tbody tr td{
+	text-align:justify;
+	vertical-align:middle;
+	border-left:solid 2px green;
+	border-right:solid 2px green;
+	padding:5pt;
+}
+a{
+	color: rgb(36,204,68);
+	text-decoration:none;
+	font-weight: bold;
+	font-size: 2em;
+}
+
 /*
 =====================================
-
 Navigation Styling
-
 =====================================
 */
 
@@ -90,10 +120,12 @@ Navigation Styling
 }
 .navBar table{
 	margin: auto;
+	border:none;
 }
 
 .navBar table td{
 	padding:0 10px;
+	border:none;
 }
 
 .navBar a{
@@ -112,17 +144,15 @@ Navigation Styling
 }
 /*
 =====================================
-
 Header Styling
-
 =====================================
 */
 .introduction{
 	color:rgb(36,204,68);
 	text-align:center;
-	padding: 15px 0;
+	padding: 15pt 0;
 }
-.introduction .text{
+.text{
 	color: green;
 }
 h1, h2, h3{
@@ -130,51 +160,34 @@ h1, h2, h3{
 	color: rgb(36,204,68);
 }
 h1{
-	font-size: 35px;
+	font-size: 35pt;
 }
 h2{
-	font-size: 26px;
+	font-size: 26pt;
 }
 h3{
-	font-size: 20px;
+	font-size: 20pt;
 }
 /*
 =====================================
-
 Bio Styling
-
 =====================================
 */
-.bio{
-	padding: 1% 5%;
-	margin:auto;
-	width: 75%;
-	font-size: 20px;
-	background-color: black;
+.bio ul {
+	padding-left:5%;
 }
 /*
 =====================================
-
-Footer Styling
-
+Gap Styling
 =====================================
 */
-footer{
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: black;
-color: white;
-text-align: center;
-padding: 20px 20px;
-font-family: Consolas;
-}
-.footerNav{
+.gap{
+	width:10px;
+	height:10px;
 	margin:auto;
 }
-.footerNav a{
-	color: rgb(36,204,68);
-	text-decoration:none;
-	font-weight: bold;
-}
+/*
+=====================================
+List Styling
+=====================================
+*/
