@@ -74,12 +74,23 @@ body{
 	background-color: black;
 	color: rgb(36,204,68);
 	padding:20px 0;
-	width: 80%;
+	width: 70%;
 	margin:auto;
 	text-align:justify;
 	padding: 1% 5%;
 	font-size: 20pt;
 }
+
+.roundTop{
+	border-top-left-radius: 50pt;
+	border-top-right-radius: 50pt;
+}
+
+.roundBottom{
+	border-bottom-left-radius: 50pt;
+	border-bottom-right-radius: 50pt;
+}
+
 table{
 	font-size: 15pt;
 	margin:auto;
@@ -153,7 +164,7 @@ Header Styling
 	padding: 15pt 0;
 }
 .text{
-	color: green;
+	color: rgb(36,204,68);
 }
 h1, h2, h3{
 	font-family: Consolas;
@@ -188,6 +199,19 @@ Gap Styling
 }
 /*
 =====================================
-List Styling
+Link Styling
 =====================================
 */
+.link a{
+	font-family: Consolas;
+	font-size: 20pt;
+	font-weight: normal;
+	text-decoration: underline;
+	text-align: center;
+	margin:auto;
+}
+.center{
+	width:75%;
+	margin:auto;
+	text-align: center;
+}
