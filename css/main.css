@@ -70,7 +70,7 @@ body{
 }
 
 .panel{
-	font-family: Consolas;
+	font-family: Consolas, Helvetica;
 	background-color: black;
 	color: rgb(36,204,68);
 	padding:20px 0;
@@ -123,7 +123,7 @@ Navigation Styling
 */
 
 .navBar{
-	font-family: Consolas;
+	font-family: Consolas, Helvetica;
 	background-color: black;
 	color: rgb(36,204,68);
 	padding:20px 0;
@@ -167,7 +167,7 @@ Header Styling
 	color: rgb(36,204,68);
 }
 h1, h2, h3{
-	font-family: Consolas;
+	font-family: Consolas, Helvetica;
 	color: rgb(36,204,68);
 }
 h1{
@@ -203,7 +203,7 @@ Link Styling
 =====================================
 */
 .link a{
-	font-family: Consolas;
+	font-family: Consolas, Helvetica;
 	font-size: 20pt;
 	font-weight: normal;
 	text-decoration: underline;
