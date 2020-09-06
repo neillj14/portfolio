@@ -2,68 +2,85 @@
 <html>
 
 <head>
-	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Home | Jamie Neill</title>
 </head>
 
 <body>
 	<header>
-		<nav class="navBar">
-			<table>
-				<tr>
-					<td class="navItem"><a href="#">Home</a></td>
-					<td class="navItem"><a href="projects.html">Projects</a></td>
-					<td class="navItem"><a href="http://www.github.com/neillj14">GitHub</a></td>
-					<td class="navItem"><a href="https://www.linkedin.com/in/jamie-neill/">LinkedIn</a></td>
-				</tr>
-			</table>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo right">Jamie Neill</a>
+				<a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul id="nav-mobile" class="left hide-on-med-and-down">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="linkedin.html">LinkedIn</a></li>
+					<li><a href="http://github.com/neillj14">GitHub</a></li>
+					<li><a href="cv.html">CV</a></li>
+				</ul>
+			</div>
 		</nav>
+		<ul class="sidenav" id="mobile-nav">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="linkedin.html">LinkedIn</a></li>
+			<li><a href="http://github.com/neillj14">GitHub</a></li>
+			<li><a href="cv.html">CV</a></li>
+		</ul>
 	</header>
 	<main>
-		<div class="introduction">
-			<div class="text">
+		<div class="container">
+			<div class="center grey lighten-3">
 				<h2>Jamie Neill</h2>
-				<br />
 				<h3>BEng. (Hons.) Computer Games Development Student</h3>
 			</div>
-		</div>
-		<div class="bio	panel">
-			<h3>Who am I?</h3></br>
-			<p>I'm a Computer Games Development student at Ulster University,
-				currently on my placement year at the Northern Ireland Civil Serivce. I
-				have an interest in VR/AR Games, as well as traditional games.
-				 I have ambitions to work in Games Development at the helm of my own
-				studio, in the software industry or the medical industry in the development
-				 and use of serious games. I also have given thought to teaching and have
-				 developed my own workshop-style material in C#, Arduino and basic
-				 computer classes through my modules at university, and my personal
-				 projects, I have gained experience with the following technologies:</p>
-			<ul>
-				<li>Java</li>
-				<li>MIPS</li>
-				<li>C++</li>
-				<li>C#</li>
-				<li>Unity</li>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>SQL</li>
-				<li>ASP WebForms</li>
-				<li>Git</li>
-				<li>GitKraken</li>
-				<li>Direct3D 12</li>
-			</ul>
-			<h3>Achievements</h3>
-			<ul>
-				<li>GitHub Campus Expert</li>
-				<li>Deans List</li>
-				<li>GitKraken Ambassador</li>
-			</ul>
-			</br>
-			<h3>Use the links above to view my Projects, GitHub and LinkedIn profiles.</h3>
-		</div>
-		<div class ="gap">
+			<div>
+				<h3>Who am I?</h3>
+				<p class="flow-text">I'm a Computer Games Development student at Ulster University,
+					having just completed my placement year at the Northern Ireland Civil Serivce. I
+					have an interest in VR/AR Games, as well as traditional games.
+					I have ambitions to work in Games Development at the helm of my own
+					studio, in the software industry or the medical industry in the development
+					and use of serious games. I also have given thought to teaching and have
+					developed my own workshop-style material in C#, Arduino and basic
+					computer classes through my modules at university, and my personal
+					projects, I have gained experience with the following technologies:</p>
+				<div class="row center grey lighten-3">
+					<ul class="flow-text col s6">
+						<li>C++</li>
+						<li>C#</li>
+						<li>Unity</li>
+						<li>Unreal</li>
+						<li>Git</li>
+						<li>Direct3D 12</li>
+					</ul>
+					<ul class="flow-text col s6">
+						<li>.NET MVC</li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>SQL</li>
+						<li>Java</li>
+						<li>MIPS</li>
+					</ul>
+				</div>
+				<h3>Achievements</h3>
+				<ul class="flow-text">
+					<li>GitHub Campus Expert</li>
+					<li>Deans List</li>
+					<li>GitKraken Ambassador</li>
+				</ul>
+				</br>
+			</div>
 		</div>
 	</main>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>
