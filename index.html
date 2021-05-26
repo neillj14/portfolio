@@ -3,6 +3,7 @@
 
 <head>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="./css/main.css" rel="stylesheet" type="text/css" />
 	<!--Import materialize.css-->
 	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 
@@ -13,7 +14,7 @@
 
 <body>
 	<header>
-		<nav>
+		<nav class="flow-text">
 			<div class="nav-wrapper">
 				<a href="#" class="brand-logo right">Jamie Neill</a>
 				<a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -35,48 +36,81 @@
 		</ul>
 	</header>
 	<main>
-		<div class="container">
-			<div class="center grey lighten-3">
+		<div class="container flow-text">
+			<div class="center">
 				<h2>Jamie Neill</h2>
 				<h3>BEng. (Hons.) Computer Games Development Student</h3>
 			</div>
+			<hr>
 			<div>
-				<h3>Who am I?</h3>
-				<p class="flow-text">I'm a Computer Games Development student at Ulster University,
-					having just completed my placement year at the Northern Ireland Civil Serivce. I
-					have an interest in VR/AR Games, as well as traditional games.
-					I have ambitions to work in Games Development at the helm of my own
-					studio, in the software industry or the medical industry in the development
-					and use of serious games. I also have given thought to teaching and have
-					developed my own workshop-style material in C#, Arduino and basic
-					computer classes through my modules at university, and my personal
-					projects, I have gained experience with the following technologies:</p>
-				<div class="row center grey lighten-3">
-					<ul class="flow-text col s6">
-						<li>C++</li>
-						<li>C#</li>
-						<li>Unity</li>
-						<li>Unreal</li>
-						<li>Git</li>
-						<li>Direct3D 12</li>
-					</ul>
-					<ul class="flow-text col s6">
-						<li>.NET MVC</li>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>SQL</li>
-						<li>Java</li>
-						<li>MIPS</li>
-					</ul>
+				<div class="row valign-wrapper">
+					<img class="col s3 responsive-img circle" src="./images/profile.jpg" />
+					<div class="col s9">
+						<h3 class="center">Who am I?</h3>
+						<p class="justify">I'm a Computer Games Development student at Ulster University. I have just
+							completed my final year where my final project was a
+							Virtual Reality exercise game. I will be starting a position with UnitedHealth Group's Optum
+							in
+							Spetember 2021.
+							In my free time I like to livestream to Twitch and make video games.</p>
+					</div>
 				</div>
+			</div>
+			<hr />
+			<div>
+				<h3>Skills</h3>
+				<div class="row">
+					<table class="table col s6 offset-s3">
+						<thead>
+							<tr>
+								<th>Programming Languages</th>
+								<th>Software</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>C#</td>
+								<td>Visual Studio</td>
+							</tr>
+							<tr>
+								<td>C++</td>
+								<td>GitKraken</td>
+							</tr>
+							<tr>
+								<td>Java</td>
+								<td>Netbeans</td>
+							</tr>
+							<tr>
+								<td>PHP</td>
+								<td>Visual Studio Code</td>
+							</tr>
+							<tr>
+								<td>MATLAB</td>
+								<td>MATLAB</td>
+							</tr>
+							<tr>
+								<td>JavaScript</td>
+								<td>NPM</td>
+							</tr>
+							<tr>
+								<td>Java</td>
+								<td>Netbeans</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<hr>
+			<div>
 				<h3>Achievements</h3>
-				<ul class="flow-text">
+				<ul class="center">
 					<li>GitHub Campus Expert</li>
 					<li>Deans List</li>
 					<li>GitKraken Ambassador</li>
 				</ul>
-				</br>
 			</div>
+			</br>
+		</div>
 		</div>
 	</main>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
